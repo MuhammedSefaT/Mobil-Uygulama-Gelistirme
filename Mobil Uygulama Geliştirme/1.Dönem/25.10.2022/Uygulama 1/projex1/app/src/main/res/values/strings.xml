@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">projex1</string>
+
+    <string-array name="islem">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+
+    <string-array name="liste">
+        <item>Kg</item>
+        <item>Gram</item>
+        <item>Tons</item>
+    </string-array>
+</resources>
