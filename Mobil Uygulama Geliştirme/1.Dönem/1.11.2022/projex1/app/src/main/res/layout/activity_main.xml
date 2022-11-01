@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="78dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/akilli_rehber"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Akıllı Rehber"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/engel"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/favori"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/sesli_ara"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/sms"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/sms_grup"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/sms_transfer"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/sms_engel"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ekle"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/hatirla"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/gps"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/gps_oku"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/yedekle"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/yukle"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/rehber_oku"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="favori listesi"
+                        android:textColor="@color/design_default_color_error"
+                        android:textSize="24sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ad" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tel" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CEVAPSIZ ÇAĞRILARI ÖĞREN"/>
+
+                <Button
+                    android:id="@+id/button61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CEVAPSIZ ÇAĞRILARI ÖĞREN (OTOMATİK)" />
+
+                <Button
+                    android:id="@+id/button62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MESAJLARI ÖĞREN" />
+
+                <Button
+                    android:id="@+id/button63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MESAJLARI ÖĞREN (OTOMATİK)" />
+
+                <Button
+                    android:id="@+id/button64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KONUM ÖĞREN (GPS LOCATİON)" />
+
+                <Button
+                    android:id="@+id/button65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ARAMA DETAYLARINI LİSTELE" />
+
+                <Button
+                    android:id="@+id/button66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TELEFONU EVDE ARA" />
+
+                <Button
+                    android:id="@+id/button67"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="YUKARIDAKİ TELEFONA TEST GÖNDER" />
+
+                <Button
+                    android:id="@+id/button68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TELEFONU EVDE ARA" />
+
+                <Button
+                    android:id="@+id/button69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VERİ TABANINI YEDEKLE" />
+
+                <Button
+                    android:id="@+id/button70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VERİ TABANI YEDEĞİNİ GERİ AL" />
+
+                <Button
+                    android:id="@+id/button71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GÜNLÜK VAKİTLERİ AKILLI EV'E GÖNDER" />
+
+                <Button
+                    android:id="@+id/button72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ROOT DURUMU" />
+
+                <Button
+                    android:id="@+id/button73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CİHAZ BİLGİSİ" />
+
+                <Button
+                    android:id="@+id/button74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BU TELEFONA EXCELİM.XLS DOSYASI OLUŞTUR" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
