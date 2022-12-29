@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/gecici"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="true"
+                android:inputType="textPersonName"
+                android:textAlignment="textEnd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sayigirilkecek"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Sayı Gir"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/temizle"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btntemizletikla"
+                android:text="C" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bos"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/sil"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnsiltikla"
+                android:text="SİL" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bolme"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnboltikla"
+                android:text="/" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/yedi"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn7tikla"
+                android:text="7" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/sekiz"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn8tikla"
+                android:text="8" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/dokuz"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn9tikla"
+                android:text="9" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/carpma"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btncarptikla"
+                android:text="X" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/dort"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn4tikla"
+                android:text="4" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bes"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn5tikla"
+                android:text="5" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/alti"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn6tikla"
+                android:text="6" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/cikarma"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btncikartikla"
+                android:text="-" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bir"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn1tikla"
+                android:text="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/iki"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn2tikla"
+                android:text="2" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/uc"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn3tikla"
+                android:text="3" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/toplama"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btntoplatikla"
+                android:text="+" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/islem"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnislemtikla"
+                android:text="%" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/sifir"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btn0tikla"
+                android:text="0" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/virgul"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnvirgultikla"
+                android:text="," />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/sonuc"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnsonuctikla"
+                android:text="=" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

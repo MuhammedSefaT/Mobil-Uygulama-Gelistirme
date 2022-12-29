@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Metod Kullanımı</string>
+    <string-array name="dortislem">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>
